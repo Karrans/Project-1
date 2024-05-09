@@ -1,0 +1,208 @@
+body {
+  background-image: url("https://plus.unsplash.com/premium_photo-1668473366952-45f06fbf6492?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-position: algin-center;
+}
+h1{
+  color:darkblue;
+  background-color: lightblue;
+  text-align: center;
+  text-size-adjust: auto;
+  font-size: 50px;
+  padding:10px;
+  border: 5px solid black;
+  
+}
+ul{
+display: flex;  
+  text-align: center;
+}
+li{
+display: flex;
+text-wrap: wrap;
+background-color:lightblue;
+border:3px solid black;
+width:900px;
+text-align:center;
+font-size: 40px;
+padding:0px 0px 0px 20px;
+  
+}
+a:link:visited {color: blue;}
+a:hover{
+  color:red;
+}
+
+img1, img2{
+  display: flex;
+  flex-wrap: wrap;
+  width:600px;
+  height:600px;
+}
+img3, img4{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height:600px;
+}
+img5, img6{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height:600px;
+}
+p{
+color:black;
+font-size: 30px;
+font-style: serif;
+font-weight:bolder;
+}
+h2{
+color:darkblue;
+width:150px;
+font-size:40px;
+}
+body.home{
+background-image:url("https://plus.unsplash.com/premium_photo-1668473366952-45f06fbf6492?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+h1.home{
+color:#0000ff;
+}
+.Home { 
+  border:5px solid navy;
+  font-family:san-serif;
+  font-size:35px;
+  }
+img.home{
+  size:auto;
+  border:5px solid red;
+}
+.parent{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: autopx;
+  border:5px solid red;
+  padding:10px;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  
+}
+
+.about{
+  border:5px solid black;
+  padding:10px;
+  background-color: lightblue;
+}
+.A{
+  border: 5px solid black;
+}
+p{
+  padding:10px;
+  border:5px solid black;
+}
+.phone{
+  border:none;
+}
+.email{
+  border:none;
+}
+.contact{
+  border:px solid black;
+  
+}
+@media screen and (max-width: 600px){
+ .Home{
+   font-size:30px;
+ }
+  .contact{
+     font-size:30px;}
+  .A{
+    font-size:30px;
+  }
+
+}
+@media screen and (min-width: 600px){
+ .Home{
+   font-size:40px;
+ }
+  .contact{
+     font-size:40px;}
+  .A{
+    font-size:40px;
+  }
+
+}
+
+fieldset{
+  border: 10px solid blue;
+}
+.parent3{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  border: 5px solid red;
+  padding:5px 0px 5px 0px;
+  background-color: lightblue;
+}
+.submit{
+ font-size: 30px;
+border:3px solid black;
+}
+.businessname{
+ height:20px;
+ justify-content: align;
+  border:2px solid black;
+}
+.help{
+ height:30px;
+ justify-content: align;
+  border:2px solid black;
+}
+.name{
+ height:30px;
+ justify-content: align;
+  border:2px solid black;
+}
+.selection{
+ height:30px;
+ justify-content: align;
+  border:2px solid black;
+}
+.more{
+ height:30px;
+ justify-content: align;
+  border:2px solid black;
+}
+footer{
+  border:10px solid black;
+  background-color: lightblue;
+  font-size:30px;
+}
+.phone{
+   background-color: lightblue;
+  border:5px solid black;
+  color:black;
+}
+.email{
+  background-color: lightblue;
+  border:5px solid black;
+  color:black;
+}
+hr{
+  border:2px solid black;
+  width: 100%;
+}
+.name{
+  font-size:20px;
+}
+.help{
+  font-size:15px;
+}
+.businessname{
+  font-size:20px;
+}
+.selection{
+  font-size:20px;
+}
+

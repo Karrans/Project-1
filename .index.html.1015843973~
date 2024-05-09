@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Website.</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- This website was created by Karran Sugrim, this is to show my skills in HTML and CSS. -->
+</head>
+<header>
+   <h1>WEB Developments and Corporation.</h1>
+</header>
+
+<body c>
+
+  
+   <h3>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+     <li><a href="index.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+      </nav>
+  
+  </ul> 
+</h3>
+<h2>About.</h2>
+  <section>
+  <p>WEB Developments and Corporation is an American based company that specializes in web develoment for all major businesses around the world. This company was founded by Karran Sugrim who is also the CEO of the company. Karran has been practicing coding since the age of 16 and has since been one of the best WEB developers in the New York State area. To access what the company has to offer use the navigation bar above. </p>
+  </section>
+
+
+</body>
+
+</html>
